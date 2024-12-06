@@ -1,0 +1,36 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-inline: auto;
+
+  .input-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+    h3 {
+      flex: 1.5;
+      margin: 0;
+      text-align: right;
+    }
+    input {
+      flex: 4;
+    }
+    select {
+      flex: 4;
+    }
+  }
+  .action-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-left: 80px;
+    button {
+      padding: 5px 20px;
+      background-color: #eaeaf8;
+      font-size: 15px;
+      border-radius: 5px;
+    }
+  }
+}
